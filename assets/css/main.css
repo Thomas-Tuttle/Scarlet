@@ -2153,6 +2153,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	
 	header p {
 		color: #ffffff;
 		position: relative;
@@ -3083,7 +3084,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(119, 119, 119, 0.95);
+			background: rgba(78, 78, 78, 0.95);
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
