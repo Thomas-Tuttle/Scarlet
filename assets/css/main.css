@@ -145,10 +145,11 @@ input, select, textarea {
 	  }
 
 	  .wheelBox {
+		margin-left: 5vmin;
 		display: flex;
 		flex-direction: column;
 		align-items: center;  
-		justify-content: center;  
+
 	}
 
 	.wheel {
@@ -170,6 +171,7 @@ input, select, textarea {
 	.leftBtn {
 		margin-top: 45vmin;
 		height: 18vmin;
+		margin-left: 5vmin;
 
 	
 	}
@@ -177,7 +179,12 @@ input, select, textarea {
 	.rightBtn {
 		margin-top: 45vmin;
 		height: 18vmin;
+		margin-left: 5vmin;
 
+	}
+
+	.mobileLogo {
+		visibility: hidden;
 	}
 
 	@media (prefers-reduced-motion: no-preference) {
@@ -793,6 +800,10 @@ input, select, textarea {
 				max-width: 100%;
 			}
 
+			.mobileLogo {
+				visibility: hidden;
+			}
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -805,7 +816,10 @@ input, select, textarea {
 				width: fit-content;
 				padding: 5vmin;
 			  }
-
+			
+			.mobileLogo {
+				visibility: hidden;
+			}
 		}
 
 /* Row */
@@ -1553,9 +1567,9 @@ input, select, textarea {
 				justify-items: center;
 			}
 
-			.video {
+			/* .video {
 				width: 90%;
-			}
+			} */
 
 			.row {
 				display: flex;
@@ -1801,6 +1815,16 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 716px) {
+
+			.Intro {
+				margin-top: -25vmin;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				align-content: center;
+				justify-items: center;
+			  }
 
 			.row {
 				display: flex;
@@ -4232,8 +4256,9 @@ input, select, textarea {
 
 		/* Basic */
 
-		.text {
-			
+		.video .YTvid{
+			width: 90vmin;
+			height: 65vmin;
 		}
 
 			html, body {
