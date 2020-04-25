@@ -74,6 +74,14 @@ input, select, textarea {
 
 /* Basic */
 
+	.contactF {
+		padding: 10vmin;
+	}
+
+	.contentText{
+		padding: 10vmin;
+	}
+
 	.topContent{
 		display: flex !important; 
 		flex-direction: column;
@@ -105,6 +113,7 @@ input, select, textarea {
 	}
 
 	.mySlides {
+		margin-top: 5vmin;
 		height: 80vmin;
 		width: 130vmin;
 		border-radius: 10px;
@@ -125,7 +134,8 @@ input, select, textarea {
 	}
 
 	.clientPic {
-		width: 40vmin;
+		width: 45vmin;
+		height: 30vmin;
 		border-radius: 10px;
 	}
 
@@ -804,9 +814,23 @@ input, select, textarea {
 				visibility: hidden;
 			}
 
+			.mySlides {
+				margin-top: 5vmin;
+				height: 65vmin;
+				width: 115vmin;
+				border-radius: 10px;
+			}
+
 		}
 
 		@media screen and (max-width: 980px) {
+
+			.mySlides {
+				margin-top: 5vmin;
+				height: 50vmin;
+				width: 95vmin;
+				border-radius: 10px;
+			}
 
 			.container {
 				width: 100% !important;
@@ -3945,6 +3969,13 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+
+		.mySlides {
+			margin-top: 5vmin;
+			height: 40vmin;
+			width: 80vmin;
+			border-radius: 10px;
+		}
 
 		.text {
 			margin-right: 10vmin;
