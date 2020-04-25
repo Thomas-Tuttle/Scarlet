@@ -134,6 +134,68 @@ input, select, textarea {
 		height: 45vmin;
 	}
 
+	.Intro {
+		
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		justify-items: center;
+	  }
+
+	  .wheelBox {
+		display: flex;
+		flex-direction: column;
+		align-items: center;  
+		justify-content: center;  
+	}
+
+	.wheel {
+		margin: 10vmin;
+		height: 60vmin;
+		width: 61vmin;
+		/* margin-top: -5vmin; */
+		pointer-events: none;
+		border-radius: 50%;
+	}
+	
+	.wheelText {
+		margin-top: -45vmin;
+		/* margin-left: -47vmin; */
+		height: 11vmin;
+	
+	}
+	
+	.leftBtn {
+		margin-top: 45vmin;
+		height: 18vmin;
+
+	
+	}
+	
+	.rightBtn {
+		margin-top: 45vmin;
+		height: 18vmin;
+
+	}
+
+	@media (prefers-reduced-motion: no-preference) {
+		.wheel {
+		  animation: Logo-spin infinite 60s linear;
+		}
+	  }
+	
+	@keyframes Logo-spin {
+		from {
+		  transform: rotate(0deg);
+		}
+		to {
+		  transform: rotate(360deg);
+		}
+	  }
+	
+
 
 	html {
 		box-sizing: border-box;
@@ -350,7 +412,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #ff0000;
+			color: #000000;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -359,7 +421,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #ff0000;
+			color: #000000;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -379,7 +441,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #ff0000;
+			color: #000000;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -388,7 +450,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #ff0000;
+			color: #000000;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -408,7 +470,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #ff0000;
+			color: #000000;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -417,7 +479,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #ff0000;
+			color: #000000;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -437,7 +499,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #ff0000;
+			color: #000000;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -446,7 +508,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #ff0000;
+			color: #000000;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -738,6 +800,11 @@ input, select, textarea {
 			.container {
 				width: 100% !important;
 			}
+
+			.Intro {
+				width: fit-content;
+				padding: 5vmin;
+			  }
 
 		}
 
@@ -1979,6 +2046,16 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+
+			.Intro {
+				margin-top: -15vmin;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				align-content: center;
+				justify-items: center;
+			  }
 
 			.row {
 				display: flex;
