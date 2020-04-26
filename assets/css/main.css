@@ -181,7 +181,7 @@ input, select, textarea {
 	.leftBtn {
 		margin-top: 45vmin;
 		height: 18vmin;
-		margin-left: 5vmin;
+		/* margin-left: -5vmin; */
 
 	
 	}
@@ -3066,7 +3066,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgba(255, 0, 43, 0.15);
+			background-color: rgb(38, 38, 78);
 		}
 
 		input[type="submit"].icon:before,
