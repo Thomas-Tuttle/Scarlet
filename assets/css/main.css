@@ -23,7 +23,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -109,6 +110,7 @@ input, select, textarea {
 	}
 
 	.teamPic {
+		height: 50vmin;
 		border-radius: 50%;
 	}
 
@@ -145,7 +147,8 @@ input, select, textarea {
 	}
 
 	.Intro {
-		
+		height: 99vmin;
+		border: 1px solid red;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -155,41 +158,49 @@ input, select, textarea {
 	  }
 
 	  .wheelBox {
-		margin-left: 5vmin;
+		border: 1px solid red;
+		/* margin-left: 5vmin; */
 		display: flex;
 		flex-direction: column;
-		align-items: center;  
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		justify-items: center;  
 
 	}
 
 	.wheel {
+		border: 1px solid red;
 		margin: 10vmin;
 		height: 60vmin;
-		width: 61vmin;
+		width: 59vmin;
 		/* margin-top: -5vmin; */
 		pointer-events: none;
 		border-radius: 50%;
 	}
 	
 	.wheelText {
-		margin-top: -45vmin;
+		border: 1px solid red;
+		margin-top: -44vmin;
 		/* margin-left: -47vmin; */
 		height: 11vmin;
 	
 	}
 	
 	.leftBtn {
-		margin-top: 45vmin;
-		height: 18vmin;
+		border: 1px solid red;
+		/* margin-top: 45vmin; */
+		/* height: 18vmin; */
 		/* margin-left: -5vmin; */
 
 	
 	}
 	
 	.rightBtn {
-		margin-top: 45vmin;
-		height: 18vmin;
-		margin-left: 5vmin;
+		border: 1px solid red;
+		/* margin-top: 45vmin; */
+		/* height: 18vmin; */
+		/* margin-left: 5vmin; */
 
 	}
 
@@ -200,6 +211,10 @@ input, select, textarea {
 	/* .introBTN {
 		width: 50vmin;
 	} */
+
+	.introBody {
+		border: 1px solid red;
+	}
 
 	@media (prefers-reduced-motion: no-preference) {
 		.wheel {
