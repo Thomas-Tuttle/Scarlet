@@ -232,7 +232,7 @@ input, select, textarea {
 	}
 
 	.firstHeading {
-		font-weight: 900;
+		font-weight: 600;
 	}
 
 	@media (prefers-reduced-motion: no-preference) {
