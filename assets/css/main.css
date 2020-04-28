@@ -150,7 +150,7 @@ input, select, textarea {
 	.Intro {
 		/* height: 99vmin; */
 
-		border: 1px solid red;
+		
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -160,7 +160,7 @@ input, select, textarea {
 	  }
 
 	  .wheelBox {
-		border: 1px solid red;
+		
 		/* margin-left: 5vmin; */
 		display: flex;
 		flex-direction: column;
@@ -176,7 +176,7 @@ input, select, textarea {
 	}
 
 	.wheel {
-		border: 1px solid red;
+		
 		margin: 10vmin;
 		height: 60vmin;
 		width: 59vmin;
@@ -186,7 +186,7 @@ input, select, textarea {
 	}
 	
 	.wheelText {
-		border: 1px solid red;
+		
 		margin-top: -44vmin;
 		/* margin-left: -47vmin; */
 		height: 11vmin;
@@ -194,7 +194,7 @@ input, select, textarea {
 	}
 	
 	.leftBtn {
-		border: 1px solid red;
+		
 		/* margin-top: 45vmin; */
 		/* height: 18vmin; */
 		/* margin-left: -5vmin; */
@@ -203,7 +203,7 @@ input, select, textarea {
 	}
 	
 	.rightBtn {
-		border: 1px solid red;
+		
 		/* margin-top: 45vmin; */
 		/* height: 18vmin; */
 		/* margin-left: 5vmin; */
@@ -219,11 +219,16 @@ input, select, textarea {
 	} */
 
 	.introBody {
-		border: 1px solid red;
+		
 	}
 
 	.mappy {
 		color: black;
+	}
+
+	#map {
+		margin-bottom: 5vmin;
+		border-radius: 20px;
 	}
 
 	.firstHeading {
@@ -1883,7 +1888,7 @@ input, select, textarea {
 		@media screen and (max-width: 716px) {
 
 			.Intro {
-				margin-top: -25vmin;
+				margin-top: 25vmin;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
@@ -2138,7 +2143,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.Intro {
-				margin-top: -15vmin;
+				margin-top: 35vmin;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
