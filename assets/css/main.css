@@ -111,6 +111,7 @@ input, select, textarea {
 
 	.teamPic {
 		height: 50vmin;
+		/* width: 40vmin; */
 		border-radius: 50%;
 	}
 
@@ -219,6 +220,14 @@ input, select, textarea {
 
 	.introBody {
 		border: 1px solid red;
+	}
+
+	.mappy {
+		color: black;
+	}
+
+	.firstHeading {
+		font-weight: 900;
 	}
 
 	@media (prefers-reduced-motion: no-preference) {

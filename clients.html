@@ -150,18 +150,80 @@
 				 <!--The div element for the map -->
 				 <div id="map"></div>
 				 <script>
+					 function initMap() {
+						var uluru = {lat: 34.687815, lng: -82.195319};
+						var uluru2 = {lat: 41.245573, lng: -95.901029};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: uluru
+  });
+
+  var contentString = '<div id="content">'+
+	  '<div id="siteNotice">'+		
+      '</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/fountainInn.jpg" >' +
+      '<h1 id="firstHeading" class="firstHeading mappy">City of Fountain Inn, South Carolina</h1>'+
+      '<div id="bodyContent">'+
+	  '<p class="mappy">A short something about this place.</p>'+
+      '<p class="mappy">Visit <a href="https://www.fountaininn.org">'+
+      'https://www.fountaininn.org</a> '+
+      '</p>'+
+      '</div>'+
+      '</div>';
+
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+    title: 'City of Fountain Inn'
+  });
+  marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
+
+  var contentString2 = '<div id="content">'+
+	  '<div id="siteNotice">'+		
+      '</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/comfort.jpg" >' +
+      '<h1 id="firstHeading" class="firstHeading mappy">Comfort Suites Council Bluffs, Iowa</h1>'+
+      '<div id="bodyContent">'+
+	  '<p class="mappy">A short something about this place.</p>'+
+      '<p class="mappy">Visit <a href="https://www.choicehotels.com/iowa/council-bluffs/comfort-suites-hotels/ia056?source=gyxt">'+
+      'Comfort Suites</a> '+
+      '</p>'+
+      '</div>'+
+      '</div>';
+
+  var infowindow2 = new google.maps.InfoWindow({
+    content: contentString2
+  });
+
+  var marker2 = new google.maps.Marker({
+    position: uluru2,
+    map: map,
+    title: 'City of Fountain Inn'
+  });
+
+  marker2.addListener('click', function() {
+    infowindow2.open(map, marker2);
+  });
+}
+
+
 			 // Initialize and add the map
-			 function initMap() {
-			   // The location of Uluru
-			   var uluru = {lat: 34.687815, lng: -82.195319};
-			   var uluru2 = {lat: 41.245573, lng: -95.901029};
-			   // The map, centered at Uluru
-			   var map = new google.maps.Map(
-				   document.getElementById('map'), {zoom: 3.9, center: uluru2});
-			   // The marker, positioned at Uluru
-			   var marker = new google.maps.Marker({position: uluru, map: map});
-			   var marker2 = new google.maps.Marker({position: uluru2, map: map});
-			 }
+			//  function initMap() {
+			//    // The location of Uluru
+			//    var uluru = {lat: 34.687815, lng: -82.195319};
+			//    var uluru2 = {lat: 41.245573, lng: -95.901029};
+			   
+			//    // The map, centered at Uluru
+			//    var map = new google.maps.Map(
+			// 	   document.getElementById('map'), {zoom: 3.9, center: uluru2});
+			//    // The marker, positioned at Uluru
+			//    var marker = new google.maps.Marker({position: uluru, map: map});
+			//    var marker2 = new google.maps.Marker({position: uluru2, map: map});
+			//  }
 				 </script>
 				 <!--Load the API from the specified URL
 				 * The async attribute allows the browser to render the page while the API loads
@@ -169,7 +231,7 @@
 				 * The callback parameter executes the initMap() function
 				 -->
 				 <script async defer
-				 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvsho5OFqWUFDRlAHqCYtumOQRK5UMF5Y&callback=initMap">
+				 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlfR34YBI-0OUIBTQ0kF2zJ5OM-w_uJbQ&callback=initMap">
 				 </script>
 
 				<footer id="footer">
