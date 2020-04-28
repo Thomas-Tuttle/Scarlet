@@ -147,7 +147,8 @@ input, select, textarea {
 	}
 
 	.Intro {
-		height: 99vmin;
+		/* height: 99vmin; */
+
 		border: 1px solid red;
 		display: flex;
 		flex-direction: row;
@@ -166,7 +167,11 @@ input, select, textarea {
 		justify-content: center;
 		align-content: center;
 		justify-items: center;  
-
+		background-image: url("images/LogoBlendText.png");
+		background-color: #000000;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 25vmin;
 	}
 
 	.wheel {
