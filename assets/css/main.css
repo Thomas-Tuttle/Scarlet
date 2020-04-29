@@ -291,7 +291,7 @@ input, select, textarea {
 		border-bottom: dotted 1px;
 		color: #ff002b;
 		text-decoration: none;
-		font-weight: 600;
+		font-weight: 300;
 	}
 
 		a:hover {
@@ -771,7 +771,7 @@ input, select, textarea {
 			-moz-animation: overlay-hide 1.5s ease-in forwards !important;
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
-			animation: overlay-hide 1.5s ease-in forwards !important;
+			animation: overlay-hide 0.25s ease-in forwards !important;
 			background: #000000;
 			content: '';
 			display: block;

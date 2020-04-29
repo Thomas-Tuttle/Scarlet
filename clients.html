@@ -7,37 +7,40 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAoDPcAJQryAAYDFwDi3/UAIgftAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzADMyIiIjMzREAzIiIiIzQABAMiMzIiQAAAQCIzMyIQAwAEIjMzIgEzMAQiMzIiMzMABCIiIiMzMAADIiIiMzMQADMiMyIjMQADMyIzMiMRAzMzIjMyIxADMwAiMyIjEAM0ACIiIjMQAAAAIiIjMzQAAAMzMzMzM0REMzMzMzMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164889704-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164889704-1"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
 
-  gtag('config', 'UA-164889704-1');
-</script>
+  			gtag('config', 'UA-164889704-1');
+		</script>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-					<h1 class="mobileLogo"  id="logo"><a href="index.html"></a></h1>
-					<a class="homeLogo" href="index.html">
-                        <img class="homeLogo" border="0" alt="logo" src="images/SBlogoSmall-centered.png" >
-                        </a>
-					<nav id="nav">
-						<ul>
-							<li><a href="hotelSales.html">Hotel Sales</a></li>
-							<li><a href="marketing.html">Marketing</a></li>
-							<li><a href="clients.html">Clients</a></li>
-							<li><a href="team.html">Who We Are</a></li>
-							
-							<li><a href="contact.html" class="button ">Contact Us</a></li>
-						</ul>
-					</nav>
-				</header>
+			<header id="header">
+				<h1 class="mobileLogo"  id="logo"><a href="index.html">Scarlet Boom</a></h1>
+				<a class="homeLogo" href="index.html">
+					<img class="homeLogo" border="0" alt="logo" src="images/SBlogoSmall-centered.png" >
+					</a>
+				<nav id="nav">
+					<ul>
+						<li><a href="hotelSales.html">Hotel Sales</a></li>
+						<li><a href="marketing.html">Marketing</a></li>
+						<li><a href="clients.html">Clients</a></li>
+						<li><a href="team.html">Who We Are</a></li>
+						
+						<li><a href="contact.html" class="button ">Contact Us</a></li>
+					</ul>
+				</nav>
+			</header>
 
 				<div class="slideshow">
 
@@ -72,89 +75,291 @@
 						 </style>
 					   
 						 
-						 <!--The div element for the map -->
+						 <!--PIN-LOCATION-->
 						 <div id="map"></div>
+
 						 <script>
-							 function initMap() {
-								var uluru = {lat: 34.687815, lng: -82.195319};
-								var uluru2 = {lat: 41.245573, lng: -95.901029};
-		  var map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 4,
-			center: uluru2
-		  });
-		
-		  var contentString = '<div id="content">'+
-			  '<div id="siteNotice">'+		
-			  '</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/fountainInn.jpg" >' +
-			  '<h1 id="firstHeading" class="firstHeading mappy">City of Fountain Inn, South Carolina</h1>'+
-			  '<div id="bodyContent">'+
-			  '<p class="mappy">A short something about this place.</p>'+
-			  '<p class="mappy">Visit <a href="https://www.fountaininn.org">'+
-			  'https://www.fountaininn.org</a> '+
-			  '</p>'+
-			  '</div>'+
-			  '</div>';
-		
-		  var infowindow = new google.maps.InfoWindow({
-			content: contentString
-		  });
-		
-		  var marker = new google.maps.Marker({
-			position: uluru,
-			map: map,
-			title: 'City of Fountain Inn'
-		  });
-		  marker.addListener('click', function() {
-			infowindow.open(map, marker);
-		  });
-		
-		  var contentString2 = '<div id="content">'+
-			  '<div id="siteNotice">'+		
-			  '</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/comfort.jpg" >' +
-			  '<h1 id="firstHeading" class="firstHeading mappy">Comfort Suites Council Bluffs, Iowa</h1>'+
-			  '<div id="bodyContent">'+
-			  '<p class="mappy">A short something about this place.</p>'+
-			  '<p class="mappy">Visit <a href="https://www.choicehotels.com/iowa/council-bluffs/comfort-suites-hotels/ia056?source=gyxt">'+
-			  'Comfort Suites</a> '+
-			  '</p>'+
-			  '</div>'+
-			  '</div>';
-		
-		  var infowindow2 = new google.maps.InfoWindow({
-			content: contentString2
-		  });
-		
-		  var marker2 = new google.maps.Marker({
-			position: uluru2,
-			map: map,
-			title: 'City of Fountain Inn'
-		  });
-		
-		  marker2.addListener('click', function() {
-			infowindow2.open(map, marker2);
-		  });
-		}
-		
-		
-					 // Initialize and add the map
-					//  function initMap() {
-					//    // The location of Uluru
-					//    var uluru = {lat: 34.687815, lng: -82.195319};
-					//    var uluru2 = {lat: 41.245573, lng: -95.901029};
-					   
-					//    // The map, centered at Uluru
-					//    var map = new google.maps.Map(
-					// 	   document.getElementById('map'), {zoom: 3.9, center: uluru2});
-					//    // The marker, positioned at Uluru
-					//    var marker = new google.maps.Marker({position: uluru, map: map});
-					//    var marker2 = new google.maps.Marker({position: uluru2, map: map});
-					//  }
+							function initMap() {
+								var pin = {lat: 34.687815, lng: -82.195319};
+								var pin2 = {lat: 41.245573, lng: -95.901029};
+								var pin3 = {lat: 33.654169, lng: -84.397167};
+								var pin4 = {lat: 41.426427, lng: -75.257685};
+								var pin5 = {lat: 41.767909, lng: -72.680989};
+								var pin6 = {lat: 41.115078, lng: -100.765643};
+								var pin7 = {lat: 40.754527, lng: -73.854607};
+								var pin8 = {lat: 27.893012, lng: -82.682459};
+								var pin9 = {lat: 42.492732, lng: -83.143609};
+								var pin10 = {lat: 33.874407, lng: -79.793918};
+
+		  					var map = new google.maps.Map(document.getElementById('map'), {
+								zoom: 4,
+								center: pin
+		  					});
+
+							// PIN-ONE
+							var contentString = '<div id="content">'+
+								'<div id="siteNotice">'+		
+								'</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/fountainInn.jpg" >' +
+								'<h1 id="firstHeading" class="firstHeading mappy">City of Fountain Inn, South Carolina</h1>'+
+								'<div id="bodyContent">'+
+								'<p class="mappy">A short something about this place.</p>'+
+								'<p class="mappy">Visit <a href="https://www.fountaininn.org">'+
+								'https://www.fountaininn.org</a> '+
+								'</p>'+
+								'</div>'+
+								'</div>';
+							
+							var infowindow = new google.maps.InfoWindow({
+								content: contentString
+							});
+							
+							var marker = new google.maps.Marker({
+								position: pin,
+								map: map,
+								title: 'City of Fountain Inn'
+							});
+								marker.addListener('click', function() {
+								infowindow.open(map, marker);
+							});
+
+							//PIN-TWO
+							var contentString2 = '<div id="content">'+
+								'<div id="siteNotice">'+		
+								'</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/comfort.jpg" >' +
+								'<h1 id="firstHeading" class="firstHeading mappy">Comfort Suites Council Bluffs, Iowa</h1>'+
+								'<div id="bodyContent">'+
+								'<p class="mappy">A short something about this place.</p>'+
+								'<p class="mappy">Visit <a href="https://www.choicehotels.com/iowa/council-bluffs/comfort-suites-hotels/ia056?source=gyxt">'+
+								'Comfort Suites</a> '+
+								'</p>'+
+								'</div>'+
+								'</div>';
+							
+							var infowindow2 = new google.maps.InfoWindow({
+								content: contentString2
+							});
+							
+							var marker2 = new google.maps.Marker({
+								position: pin2,
+								map: map,
+								title: 'City of Fountain Inn'
+							});
+							
+							marker2.addListener('click', function() {
+								infowindow2.open(map, marker2);
+							});
+							
+
+							// PIN-THREE
+							var contentString3 = '<div id="content">'+
+								'<div id="siteNotice">'+		
+								'</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/atlanta.jpg" >' +
+								'<h1 id="firstHeading" class="firstHeading mappy">Best Western Atlanta Airport</h1>'+
+								'<div id="bodyContent">'+
+								'<p class="mappy">A short something about this place.</p>'+
+								'<p class="mappy">Visit <a href="https://www.bestwestern.com/en_US/book/hotels-in-hapeville/best-western-plus-atlanta-airport-east/propertyCode.11120.html">'+
+								'Best Western</a> '+
+								'</p>'+
+								'</div>'+
+								'</div>';
+							
+							var infowindow3 = new google.maps.InfoWindow({
+								content: contentString3
+							});
+							
+							var marker3 = new google.maps.Marker({
+								position: pin3,
+								map: map,
+								title: 'Best Western Atlanta Airport'
+							});
+								marker3.addListener('click', function() {
+								infowindow3.open(map, marker3);
+							});
+
+							// PIN-FOUR
+							var contentString4 = '<div id="content">'+
+								'<div id="siteNotice">'+		
+								'</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/cove.jpg" >' +
+								'<h1 id="firstHeading" class="firstHeading mappy">Cove Haven Resorts</h1>'+
+								'<div id="bodyContent">'+
+								'<p class="mappy">A short something about this place.</p>'+
+								'<p class="mappy">Visit <a href="https://www.covepoconoresorts.com/">'+
+								'Cove Haven</a> '+
+								'</p>'+
+								'</div>'+
+								'</div>';
+							
+							var infowindow4 = new google.maps.InfoWindow({
+								content: contentString4
+							});
+							
+							var marker4 = new google.maps.Marker({
+								position: pin4,
+								map: map,
+								title: 'Cove Haven Resorts'
+							});
+								marker4.addListener('click', function() {
+								infowindow4.open(map, marker4);
+							});	
+
+							// PIN-FIVE
+							var contentString5 = '<div id="content">'+
+								'<div id="siteNotice">'+		
+								'</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/capitol.jpg" >' +
+								'<h1 id="firstHeading" class="firstHeading mappy">Capitol Hotel Hartford</h1>'+
+								'<div id="bodyContent">'+
+								'<p class="mappy">A short something about this place.</p>'+
+								'<p class="mappy">Visit <a href="https://www.capitolhartford.com/">'+
+								'Capital Hotel</a> '+
+								'</p>'+
+								'</div>'+
+								'</div>';
+							
+							var infowindow5 = new google.maps.InfoWindow({
+								content: contentString5
+							});
+							
+							var marker5 = new google.maps.Marker({
+								position: pin5,
+								map: map,
+								title: 'Capitol Hotel Hartford'
+							});
+								marker5.addListener('click', function() {
+								infowindow5.open(map, marker5);
+							});
+
+							// PIN-SIX
+							var contentString6 = '<div id="content">'+
+								'<div id="siteNotice">'+		
+								'</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/ramada.jpg" >' +
+								'<h1 id="firstHeading" class="firstHeading mappy">Ramada by Wyndham North Platte, Nebraska</h1>'+
+								'<div id="bodyContent">'+
+								'<p class="mappy">A short something about this place.</p>'+
+								'<p class="mappy">Visit <a href="https://www.wyndhamhotels.com/ramada/north-platte-nebraska/ramada-by-wyndham-north-platte/overview">'+
+								'Ramada</a> '+
+								'</p>'+
+								'</div>'+
+								'</div>';
+							
+							var infowindow6 = new google.maps.InfoWindow({
+								content: contentString6
+							});
+							
+							var marker6 = new google.maps.Marker({
+								position: pin6,
+								map: map,
+								title: 'Ramada by Wyndham North Platte, Nebraska'
+							});
+								marker6.addListener('click', function() {
+								infowindow6.open(map, marker6);
+							});
+
+							// PIN-SEVEN
+							var contentString7 = '<div id="content">'+
+								'<div id="siteNotice">'+		
+								'</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/holiday.jpg" >' +
+								'<h1 id="firstHeading" class="firstHeading mappy">Holiday Inn Laguardia</h1>'+
+								'<div id="bodyContent">'+
+								'<p class="mappy">A short something about this place.</p>'+
+								'<p class="mappy">Visit <a href="https://www.ihg.com/holidayinn/hotels/us/en/corona/nycoa/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-US-_-NYCOA">'+
+								'Holiday Inn</a> '+
+								'</p>'+
+								'</div>'+
+								'</div>';
+							
+							var infowindow7 = new google.maps.InfoWindow({
+								content: contentString7
+							});
+							
+							var marker7 = new google.maps.Marker({
+								position: pin7,
+								map: map,
+								title: 'Holiday Inn Laguardia'
+							});
+								marker7.addListener('click', function() {
+								infowindow7.open(map, marker7);
+							});	
+
+							// PIN-EIGHT
+							var contentString8 = '<div id="content">'+
+								'<div id="siteNotice">'+		
+								'</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/redroof.jpg" >' +
+								'<h1 id="firstHeading" class="firstHeading mappy">Red Roof Inn St. Petersburg/Clearwater Airport</h1>'+
+								'<div id="bodyContent">'+
+								'<p class="mappy">A short something about this place.</p>'+
+								'<p class="mappy">Visit <a href="https://www.redroof.com/property/fl/clearwater/RRI470?utm_source=GMB&amp;utm_medium=Google&amp;utm_campaign=GMB_Performance">'+
+								'Red Roof Inn</a> '+
+								'</p>'+
+								'</div>'+
+								'</div>';
+							
+							var infowindow8 = new google.maps.InfoWindow({
+								content: contentString8
+							});
+							
+							var marker8 = new google.maps.Marker({
+								position: pin8,
+								map: map,
+								title: 'Red Roof Inn St. Petersburg/Clearwater Airport'
+							});
+								marker8.addListener('click', function() {
+								infowindow8.open(map, marker8);
+							});	
+
+							// PIN-NINE
+							var contentString9 = '<div id="content">'+
+								'<div id="siteNotice">'+		
+								'</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/hyatt.jpg" >' +
+								'<h1 id="firstHeading" class="firstHeading mappy">Hyatt Place Detroit</h1>'+
+								'<div id="bodyContent">'+
+								'<p class="mappy">A short something about this place.</p>'+
+								'<p class="mappy">Visit <a href="https://www.hyatt.com/en-US/hotel/michigan/hyatt-place-detroit-royal-oak/dtwzr">'+
+								'Hyatt Place</a> '+
+								'</p>'+
+								'</div>'+
+								'</div>';
+							
+							var infowindow9 = new google.maps.InfoWindow({
+								content: contentString9
+							});
+							
+							var marker9 = new google.maps.Marker({
+								position: pin9,
+								map: map,
+								title: 'Hyatt Place Detroit'
+							});
+								marker9.addListener('click', function() {
+								infowindow9.open(map, marker9);
+							});	
+
+							// PIN-TEN
+							var contentString10 = '<div id="content">'+
+								'<div id="siteNotice">'+		
+								'</div>'+ '<img class="clientPic" border="0" alt="logo" src="images/sheriff.jpg" >' +
+								'<h1 id="firstHeading" class="firstHeading mappy">TJ Joye for Sheriff of Florence County Campaign</h1>'+
+								'<div id="bodyContent">'+
+								'<p class="mappy">A short something about this place.</p>'+
+								'<p class="mappy">Visit <a href="https://www.tjjoyeforsheriff.com/">'+
+								'Campaign Page</a> '+
+								'</p>'+
+								'</div>'+
+								'</div>';
+							
+							var infowindow10 = new google.maps.InfoWindow({
+								content: contentString10
+							});
+							
+							var marker10 = new google.maps.Marker({
+								position: pin10,
+								map: map,
+								title: 'TJ Joye for Sheriff of Florence County Campaign'
+							});
+								marker10.addListener('click', function() {
+								infowindow10.open(map, marker10);
+							});	
+						}																
 						 </script>
-						 <!--Load the API from the specified URL
-						 * The async attribute allows the browser to render the page while the API loads
-						 * The key parameter will contain your own API key (which is not needed for this tutorial)
-						 * The callback parameter executes the initMap() function
-						 -->
+
 						 <script async defer
 						 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlfR34YBI-0OUIBTQ0kF2zJ5OM-w_uJbQ&callback=initMap">
 						 </script>
