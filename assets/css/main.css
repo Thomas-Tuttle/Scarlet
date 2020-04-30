@@ -199,7 +199,10 @@ input, select, textarea {
 	}
 	
 	.leftBtn {
-		
+		/* border: 1px solid red;
+		width: 100vmin;
+		height: 100vmin;
+		margin-right: 20vmin; */
 		/* margin-top: 45vmin; */
 		/* height: 18vmin; */
 		/* margin-left: -5vmin; */
@@ -208,7 +211,9 @@ input, select, textarea {
 	}
 	
 	.rightBtn {
-		
+		/* border: 1px solid red;
+		width: 100vmin;
+		height: 100vmin; */
 		/* margin-top: 45vmin; */
 		/* height: 18vmin; */
 		/* margin-left: 5vmin; */
@@ -248,6 +253,16 @@ input, select, textarea {
 	.contactF {
 		width: 70%;
 	}
+
+	/* .teamRow {
+		display: flex;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		justify-items: center;
+	} */
+
+	
 
 	@media (prefers-reduced-motion: no-preference) {
 		.wheel {
@@ -913,7 +928,10 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		justify-items: center;
 	}
 
 		.row > * {
