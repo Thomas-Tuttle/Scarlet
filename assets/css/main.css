@@ -254,6 +254,13 @@ input, select, textarea {
 		width: 70%;
 	}
 
+	.resumeF {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	/* .teamRow {
 		display: flex;
 		align-items: center;
