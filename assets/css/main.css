@@ -1,6 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
-
+@import url("FuturaPTBook.otf");
 /*
 	Landed by HTML5 UP
 	html5up.net | @ajlkn
@@ -306,9 +306,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", Helvetica, sans-serif;
+		font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 		font-size: 15pt;
-		font-weight: 100;
+		font-weight: 900;
 		line-height: 1.75em;
 	}
 
@@ -411,7 +411,7 @@ input, select, textarea {
 	code {
 		background: rgba(255, 255, 255, 0.075);
 		border-radius: 4px;
-		font-family: "Courier New", monospace;
+		font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -419,7 +419,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -766,7 +766,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 			font-weight: 900;
 		}
 
@@ -2610,7 +2610,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 				font-weight: 900;
 			}
 
@@ -2708,7 +2708,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 			font-weight: 400;
 		}
 
@@ -2741,7 +2741,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 				font-weight: 400;
 			}
 
@@ -2779,7 +2779,7 @@ input, select, textarea {
 					text-rendering: auto;
 					line-height: 1;
 					text-transform: none !important;
-					font-family: 'Font Awesome 5 Free';
+					font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 					font-weight: 400;
 				}
 
@@ -4240,7 +4240,7 @@ input, select, textarea {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+						font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 						font-weight: 900;
 					}
 
