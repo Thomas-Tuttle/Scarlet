@@ -115,6 +115,11 @@ input, select, textarea {
 		border-radius: 50%;
 	}
 
+
+	.slidePic {
+		border-radius: 25px;
+	}
+
 	.slides {
 		margin-top: 5vmin;
 		height: 80vmin;
@@ -879,6 +884,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 1399px) {
 
+			.dot{
+				margin-top: 0vmin !important;
+			}
+
 			 p {
 				font-size: 1em !important;
 			}
@@ -887,6 +896,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+
+			.dot{
+				margin-top: 8vmin !important;
+			}
 
 			.container {
 				width: 90%;
@@ -907,6 +920,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+
+			.dot{
+				margin-top: 12vmin !important;
+			}
 
 			.slides {
 				margin-top: 5vmin;
@@ -2180,6 +2197,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+			.dot{
+				margin-top: 16vmin !important;
+			}
+			
 
 			.Intro {
 				margin-top: 35vmin;
