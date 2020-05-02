@@ -139,7 +139,11 @@ input, select, textarea {
 	}
 
 	.topContainer {
+		
+		
 		display: flex;
+		flex-direction: row;
+		align-items: center;
 	}
 
 	.logoText {
@@ -263,6 +267,100 @@ input, select, textarea {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+	}
+
+	.topContainer2 {display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-image: url("images/marketingText.png");
+		background-color: #000000;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 25vmin;
+		margin-top: -50vmin;
+	}
+
+	.topLogo {
+		margin-top: -40vmin;
+		height: 60vmin;
+		margin: 5vmin;
+		align-items: center;
+	}
+
+	.mL1{
+		margin-top: 45vmin;
+		margin-right: -10vmin;
+		margin-left: 5vmin;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mL2{
+		margin-top: -15vmin;
+		margin-right: 15vmin;
+		margin-left: 5vmin;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mL3{
+		margin-top: -50vmin;
+		margin-right: 5vmin;
+		margin-left: 5vmin;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mL4{
+		margin-top: -15vmin;
+		margin-right: 5vmin;
+		margin-left: 15vmin;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mL5{
+		margin-top: 45vmin;
+		margin-right: 5vmin;
+		margin-left: -10vmin;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mL6{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mL7{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.topContainer3 {display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-image: url("images/hotelText.png");
+		background-color: #000000;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 25vmin;
+		/* margin-top: -50vmin; */
+	}
+
+
+
+
+	.marketIcons {
+		display: flex;
 		align-items: center;
 	}
 
@@ -1942,6 +2040,34 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 716px) {
+
+			.mL1{
+				visibility: hidden;
+			}
+		
+			.mL2{
+				visibility: hidden;
+			}
+		
+			.mL3{
+				visibility: hidden;
+			}
+		
+			.mL4{
+				visibility: hidden;
+			}
+		
+			.mL5{
+				visibility: hidden;
+			}
+		
+			.mL6{
+				visibility: hidden;
+			}
+		
+			.mL7{
+				visibility: hidden;
+			}
 
 			.Intro {
 				margin-top: 25vmin;
