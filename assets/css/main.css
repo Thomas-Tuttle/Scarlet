@@ -273,7 +273,7 @@ input, select, textarea {
 	.topContainer2 {display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-image: url("images/marketingText.png");
+		background-image: url("images/marketingText.JPG");
 		background-color: #000000;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -348,7 +348,7 @@ input, select, textarea {
 	.topContainer3 {display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-image: url("images/hotelText.png");
+		background-image: url("images/hotelText.JPG");
 		background-color: #000000;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -378,6 +378,10 @@ input, select, textarea {
 
 	.brandImage2{
 		display: none;
+	}
+
+	.homeLogo {
+		margin-bottom: 2vmin;
 	}
 
 
