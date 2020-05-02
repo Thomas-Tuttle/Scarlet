@@ -104,9 +104,11 @@
   }
   
   .split.right {
+    position: absolute;
     right:0;
-    background: url('./images/SBlogoSmall-centered.png') center center no-repeat;
+    background: url('./images/SBlogoSmall-new.png') center center no-repeat;
     background-size: cover;
+    background-color: var(--right-bg-color);
   }
   
   .split.right:before {
@@ -146,18 +148,36 @@
     z-index: 2;
   }
   
-  @media(max-width: 800px) {
+  @media(max-width: 850px) {
     h1 {
       font-size: 2rem;
     }
 
     .marketingIntroText {
+      font-size: 2.3rem;
+      top: 38%;
+    }
+
+    .hotelIntroText {
+      top: 39%;
+    }
+
+  }
+
+  @media(max-width: 450px) {
+    h1 {
       font-size: 2rem;
     }
-  
-    .button {
-      width: 12rem;
+
+    .marketingIntroText {
+      font-size: 2.3rem;
+      top: 43%;
     }
+
+    .hotelIntroText {
+      top: 44%;
+    }
+
   }
   
   @media(max-height: 700px) {
