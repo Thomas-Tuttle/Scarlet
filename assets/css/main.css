@@ -110,8 +110,8 @@ input, select, textarea {
 	}
 
 	.teamPic {
-		height: 50vmin;
-		/* width: 40vmin; */
+		height: 30vmin;
+		/* width: 48vmin; */
 		border-radius: 50%;
 	}
 
@@ -371,6 +371,15 @@ input, select, textarea {
 		justify-content: center;
 		justify-items: center;
 	} */
+
+	.brandImage1{
+
+	}
+
+	.brandImage2{
+		display: none;
+	}
+
 
 	
 
@@ -1018,6 +1027,14 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+
+			.brandImage1{
+				display: none !important;
+			}
+
+			.brandImage2{
+				display: block;
+			}
 
 			.dot{
 				margin-top: 12vmin !important;
