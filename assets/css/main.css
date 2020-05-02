@@ -1044,6 +1044,40 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+			.topContainer2 {
+				margin-top: 0vmin;
+			}
+
+			
+
+			.mL1{
+				display: none;
+			}
+		
+			.mL2{
+				display: none;
+			}
+		
+			.mL3{
+				display: none;
+			}
+		
+			.mL4{
+				display: none;
+			}
+		
+			.mL5{
+				display: none;
+			}
+		
+			.mL6{
+				display: none;
+			}
+		
+			.mL7{
+				display: none;
+			}
+
 			.brandImage1{
 				display: none !important;
 			}
@@ -3345,7 +3379,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgb(11, 12, 95);
+			background-color: rgb(251, 63, 63);
 		}
 
 		input[type="submit"].icon:before,
