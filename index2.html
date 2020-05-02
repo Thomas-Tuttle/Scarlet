@@ -12,7 +12,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
         
-        <link rel="stylesheet" href="assets/css/landing.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -36,71 +36,45 @@
    
     <body class="introBody">
 
-        <div class="container">
-          <a href="marketing.html" >
-            <div class="split left">
-              <h1>Marketing</h1>
-             
-            </div></a>
-            <a href="hotelSales.html">
-            <div class="split right">
-              <h1>Hotel Sales</h1>
-              
-            </div>
-          </a>
-          </div>
+ 
+
+        
+
+        <div class="Intro" >
+            
+
+
+                <div class="leftBtn">
+                    
+                    <a href="marketing.html" class="introBTN button">Marketing</a>
+
+                </div>
+
+
+                <div class="wheelBox">
+                    <img class="wheel" src="images/SBlogoSmall-balance.png" alt="">
+                    <!-- <img class="wheelText" src="images/LogoBlendText.png" alt=""> -->
+                </div>
+                    
+
+
+                <div class="rightBtn">
+                    
+                        <a href="hotelSales.html" class="introBTN button ">Hotel Sales</a>
+                    
+
+                </div>
+                    
+
+ 
+
+
+ 
+
+        </div> <!-- container -->
 
     </body>
 
         <script src="js/index.js"></script>
-        <script>
-            const left = document.querySelector(".left");
-const right = document.querySelector(".right");
-const container = document.querySelector(".container");
-
-left.addEventListener("mouseenter", () => {
-  container.classList.add("hover-left");
-});
-
-left.addEventListener("mouseleave", () => {
-  container.classList.remove("hover-left");
-});
-
-right.addEventListener("mouseenter", () => {
-  container.classList.add("hover-right");
-});
-
-right.addEventListener("mouseleave", () => {
-  container.classList.remove("hover-right");
-});
-
-        </script>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="container">
-    <div class="split left">
-      <h1>The Designer</h1>
-      <a href="#" class="button">Read More</a>
-    </div>
-    <div class="split right">
-      <h1>The Programmer</h1>
-      <a href="#" class="button">Read More</a>
-    </div>
-  </div> -->
