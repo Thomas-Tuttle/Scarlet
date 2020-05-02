@@ -278,7 +278,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 25vmin;
-		margin-top: -50vmin;
+		margin-top: -55vmin;
 	}
 
 	.topLogo {
@@ -991,6 +991,12 @@ input, select, textarea {
 
 		@media screen and (max-width: 1399px) {
 
+			.clientPic {
+				width: 30vmin;
+				height: 20vmin;
+				border-radius: 10px;
+			}
+
 			.dot{
 				margin-top: 0vmin !important;
 			}
@@ -1003,6 +1009,12 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+
+			.clientPic {
+				width: 30vmin;
+				height: 20vmin;
+				border-radius: 10px;
+			}
 
 			.dot{
 				margin-top: 8vmin !important;
@@ -2059,31 +2071,31 @@ input, select, textarea {
 		@media screen and (max-width: 716px) {
 
 			.mL1{
-				visibility: hidden;
+				display: none;
 			}
 		
 			.mL2{
-				visibility: hidden;
+				display: none;
 			}
 		
 			.mL3{
-				visibility: hidden;
+				display: none;
 			}
 		
 			.mL4{
-				visibility: hidden;
+				display: none;
 			}
 		
 			.mL5{
-				visibility: hidden;
+				display: none;
 			}
 		
 			.mL6{
-				visibility: hidden;
+				display: none;
 			}
 		
 			.mL7{
-				visibility: hidden;
+				display: none;
 			}
 
 			.Intro {
@@ -4411,12 +4423,12 @@ input, select, textarea {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+						font-family: 'Font Awesome 5 Free';
 						font-weight: 900;
 					}
 
 					#titleBar .toggle:before {
-						background: #ff002b;
+						background: #8f0000;
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;
