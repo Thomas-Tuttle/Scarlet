@@ -2352,6 +2352,19 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+
+			.clientPic {
+				width: 85vmin;
+				height: 65vmin;
+				border-radius: 10px;
+			}
+
+			.teamPic {
+				height: 80vmin;
+		/* width: 48vmin; */
+		border-radius: 50%;
+			}
+
 			.dot{
 				margin-top: 16vmin !important;
 			}
