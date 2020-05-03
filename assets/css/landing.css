@@ -91,7 +91,7 @@
     background: url('./images/SBlogoSmall-black.png') center center no-repeat;
     background-size: cover;
     background-color: var(--left-bg-color);
-    border-right:5px solid rgb(97, 97, 97);
+    border-right:5px solid #a5a5a5;
     
   }
   
