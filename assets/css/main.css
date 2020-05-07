@@ -24,6 +24,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	/* border: 1px solid red; */
 }
 
 article, aside, details, figcaption, figure,
@@ -108,6 +109,23 @@ input, select, textarea {
 		padding: 1vmin;
 		color: transparent;
 	}
+
+	.linkIcon {
+		height: 15vmin;
+	}
+
+	.marketingTitle {
+		/* font-family: Futura, "Trebuchet MS", Arial, sans-serif; */
+		/* width: 100%; */
+		height: 15vmin;
+		font-size: 12vmin;
+		display: flex;
+		justify-content: center;
+	}
+
+	/* .linkIcon:hover {
+		height: 1vmin;
+	} */
 
 	.teamPic {
 		height: 30vmin;
@@ -270,20 +288,22 @@ input, select, textarea {
 		align-items: center;
 	}
 
+	
+
 	.topContainer2 {display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-image: url("images/marketingText.JPG");
+		/* background-image: url("images/marketingText.JPG"); */
 		background-color: #000000;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 25vmin;
-		margin-top: -55vmin;
+		margin-top: -45vmin;
 	}
 
 	.topLogo {
 		margin-top: -40vmin;
-		height: 60vmin;
+		height: 40vmin;
 		margin: 5vmin;
 		align-items: center;
 	}
@@ -348,7 +368,7 @@ input, select, textarea {
 	.topContainer3 {display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-image: url("images/hotelText.JPG");
+		/* background-image: url("images/hotelText.JPG"); */
 		background-color: #000000;
 		background-repeat: no-repeat;
 		background-position: center;
