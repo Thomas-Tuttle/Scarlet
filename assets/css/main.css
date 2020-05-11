@@ -288,6 +288,28 @@ input, select, textarea {
 		align-items: center;
 	}
 
+	.newClientInput {
+		width: 100vmin;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		justify-items: center; 
+	}
+
+	.newClientForm {
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		justify-items: center; 
+	}
+
+
+
 	
 
 	.topContainer2 {display: flex;
