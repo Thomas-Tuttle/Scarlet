@@ -201,7 +201,7 @@ input, select, textarea {
 		align-content: center;
 		justify-items: center;  
 		background-image: url("images/LogoBlendText.png");
-		background-color: #000000;
+		background-color: #fff;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 25vmin;
@@ -294,7 +294,7 @@ input, select, textarea {
 		flex-direction: column;
 		align-items: center;
 		/* background-image: url("images/marketingText.JPG"); */
-		background-color: #000000;
+		background-color: #fff;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 25vmin;
@@ -369,7 +369,7 @@ input, select, textarea {
 		flex-direction: column;
 		align-items: center;
 		/* background-image: url("images/hotelText.JPG"); */
-		background-color: #000000;
+		background-color: #fff;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 25vmin;
@@ -433,7 +433,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #000000;
+		background: #fff;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -472,7 +472,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #000;
 		font-weight: 300;
 	}
 
@@ -485,7 +485,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #000;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -639,7 +639,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #000000;
+			color: #fff;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -648,7 +648,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #000000;
+			color: #fff;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -668,7 +668,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #000000;
+			color: #fff;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -677,7 +677,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #000000;
+			color: #fff;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -697,7 +697,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #000000;
+			color: #fff;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -706,7 +706,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #000000;
+			color: #fff;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -726,7 +726,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #000000;
+			color: #fff;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -735,7 +735,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #000000;
+			color: #fff;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -944,7 +944,7 @@ input, select, textarea {
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 0.25s ease-in forwards !important;
-			background: #000000;
+			background: #fff;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2719,7 +2719,7 @@ input, select, textarea {
 
 	
 	header p {
-		color: #ffffff;
+		color: #000;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2776,7 +2776,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #000;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 300;
@@ -2834,8 +2834,8 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #ffffff;
-			background: #000000;
+			color: #000;
+			background: #fff;
 		}
 
 		select:focus::-ms-value {
@@ -2917,7 +2917,7 @@ input, select, textarea {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: rgba(255, 255, 255, 0.25);
-			color: #ffffff;
+			color: #000;
 			content: '\f00c';
 		}
 
@@ -3032,7 +3032,7 @@ input, select, textarea {
 
 			.icon.alt:before {
 				color: #1c1d26 !important;
-				text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+				text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000;
 			}
 
 		.icon.major {
@@ -3070,7 +3070,7 @@ input, select, textarea {
 
 				.icon.major.alt:before {
 					color: #ff0000 !important;
-					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+					text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000;
 				}
 
 /* Image */
@@ -3343,7 +3343,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #ffffff;
+			color: #000;
 			font-size: 0.9em;
 			font-weight: 300;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -3402,7 +3402,7 @@ input, select, textarea {
 		border-radius: 4px;
 		border: 0;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
-		color: #ffffff !important;
+		color: #000 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 300;
@@ -3467,7 +3467,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #e51b23;
 			box-shadow: none;
-			color: #ffffff !important;
+			color: #000 !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -3493,7 +3493,7 @@ input, select, textarea {
 		.button:disabled {
 			background-color: rgba(255, 255, 255, 0.3) !important;
 			box-shadow: none !important;
-			color: #ffffff !important;
+			color: #000 !important;
 			cursor: default;
 			opacity: 0.25;
 		}
@@ -3788,7 +3788,7 @@ input, select, textarea {
 			.wrapper.style2 .button:active {
 				background-color: rgba(255, 255, 255, 0.075) !important;
 				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5) !important;
-				color: #ffffff !important;
+				color: #000 !important;
 			}
 
 			.wrapper.style2 input[type="submit"]:active,
@@ -3802,7 +3802,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="reset"].primary,
 			.wrapper.style2 input[type="button"].primary,
 			.wrapper.style2 .button.primary {
-				background-color: #ffffff;
+				background-color: #000;
 				color: #e51b23 !important;
 			}
 
@@ -3815,7 +3815,7 @@ input, select, textarea {
 				.wrapper.style2 .button.primary:active {
 					background-color: rgba(255, 255, 255, 0.075) !important;
 					box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5) !important;
-					color: #ffffff !important;
+					color: #000 !important;
 				}
 
 				.wrapper.style2 input[type="submit"].primary:active,
@@ -3920,7 +3920,7 @@ input, select, textarea {
 				-webkit-transform: rotate(45deg);
 				-ms-transform: rotate(45deg);
 				transform: rotate(45deg);
-				background: #000000;
+				background: #fff;
 				content: '';
 				display: block;
 				height: 1em;
@@ -4018,7 +4018,7 @@ input, select, textarea {
 
 	#banner {
 
-		background-color: #000000;
+		background-color: #fff;
 
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -4117,7 +4117,7 @@ input, select, textarea {
 			}
 
 			#footer .icons .icon.alt:before {
-				color: #000000 !important;
+				color: #fff !important;
 				text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), -1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5);
 			}
 
@@ -4487,12 +4487,12 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #000000;
+				background: #fff;
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
 
 				#titleBar .title {
-					color: #ffffff;
+					color: #000;
 					display: block;
 					font-weight: 300;
 					height: 44px;
@@ -4588,7 +4588,7 @@ input, select, textarea {
 					}
 
 					#navPanel .link.depth-0 {
-						color: #ffffff;
+						color: #000;
 						font-weight: 300;
 					}
 
