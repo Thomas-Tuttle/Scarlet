@@ -498,6 +498,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2em;
+		font-weight: 900;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
 	}
@@ -1898,11 +1899,24 @@ input, select, textarea {
 
 			.topContainer {
 				display: flex;
-				flex-direction: column-reverse;
+				flex-direction: column;
 				align-content: center;
 				align-items: center;
 				justify-content: center;
 				justify-items: center;
+			}
+
+			form {
+				display: flex;
+				flex-direction: column;
+				align-content: center;
+				align-items: center;
+				justify-content: center;
+				justify-items: center;
+			}
+
+			.btn-success {
+				width: 30vmin;
 			}
 
 			/* .video {
