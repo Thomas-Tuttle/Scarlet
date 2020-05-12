@@ -4686,6 +4686,15 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+		
+		.topLogo {
+			margin-left: 10vmin;
+		}
+
+		.topLogo2 {
+			margin-left: 5vmin;
+		}
+
 		/* Basic */
 
 		.video .YTvid{
