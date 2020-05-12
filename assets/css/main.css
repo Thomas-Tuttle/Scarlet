@@ -4338,6 +4338,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+		
 
 		.slides {
 			margin-top: 5vmin;
@@ -4656,6 +4657,14 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 		/* Basic */
+
+		.topLogo {
+			margin-left: 10vmin;
+		}
+
+		.topLogo2 {
+			margin-left: 5vmin;
+		}
 
 		.video .YTvid{
 			width: 90vmin;
