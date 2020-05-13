@@ -1038,6 +1038,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 1399px) {
 
+			.mL1 {
+				margin-left: -5vmin;
+			}
+
 			.clientPic {
 				width: 30vmin;
 				height: 20vmin;
