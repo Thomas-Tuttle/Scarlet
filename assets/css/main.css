@@ -1042,6 +1042,12 @@ input, select, textarea {
 				margin-left: -5vmin;
 			}
 
+			.icon {
+				max-height: 5vmin;
+				margin-bottom: 9vmin;
+			}
+
+
 			.clientPic {
 				width: 30vmin;
 				height: 20vmin;
