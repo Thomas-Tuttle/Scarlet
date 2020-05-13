@@ -4695,6 +4695,10 @@ input, select, textarea {
 			margin-left: 5vmin;
 		}
 
+		.goto-next {
+			display: none;
+		}
+
 		/* Basic */
 
 		.video .YTvid{
